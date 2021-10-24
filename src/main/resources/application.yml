@@ -1,0 +1,6 @@
+spring:
+  webflux:
+    base-path: /reactive-flashcards
+  data:
+    mongodb:
+      uri: mongodb://${DB_USER}:${DB_PASSWORD}@db:${DB_PORT}/${DB}?authSource=admin
